@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Vivek Reddy Kesavarapu's portfolio showcasing education, skills, experience, and projects in Data Science, Machine Learning, and Software Development.">
+    <meta name="author" content="Vivek Reddy Kesavarapu">
+    <meta name="keywords" content="Vivek Reddy Kesavarapu, resume, data science, machine learning, python, projects, software developer, portfolio">
+    <title>eResume - Vivek - Data Science & Software Development Portfolio</title>
+    <link rel="icon" href="https://media.licdn.com/dms/image/v2/D5603AQGheDCGNAJzoQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1688202119367?e=1739404800&v=beta&t=5EDSHuqlQeu05qCRWUrQLpxap-heHgGj3N6vznjMN0A" type="image/x-icon">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="canonical" href="https://vivek76.vercel.app" />
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: sans-serif;
+            transition: background-color 0.3s, color 0.3s;
+        }
+
+        .social-link {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+
+        .social-link:hover {
+            background-color: #e5f3ff;
+            transform: scale(1.1);
+        }
+
+        /* Dark Mode Styles */
+        .dark {
+            background-color: #121212;
+            color: #e5e5e5;
+        }
+
+        .dark .bg-gray-100 {
+            background-color: #1a1a1a !important;
+        }
+
+        .dark .bg-white {
+            background-color: #2c2c2c !important;
+        }
+
+        .dark .text-gray-600 {
+            color: #b0b0b0 !important;
+        }
+
+        .dark .text-gray-800 {
+            color: #dcdcdc !important;
+        }
+
+        .dark .text-blue-500 {
+            color: #4fa3f7 !important;
+        }
+
+        .dark .text-blue-600 {
+            color: #1e7de2 !important;
+        }
+
+        .dark .text-red-500 {
+            color: #e57373 !important;
+        }
+
+        .dark .text-green-500 {
+            color: #81c784 !important;
+        }
+
+        .dark .text-yellow-500 {
+            color: #ffeb3b !important;
+        }
+
+        .dark .text-gray-700 {
+            color: #0480c3 !important;
+        }
+
+
+        .dark #theme-toggle {
+            background-color: #3b3b3b;
+            color:white;
+        }
+
+
+        /* Button and Icon Styles */
+        #theme-toggle {
+            background-color: white;
+            color: #3b3b3b;
+            border-radius: 50%;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        #theme-toggle i {
+            transition: transform 0.3s;
+        }
+
+        #theme-toggle:hover i {
+            transform: rotate(90deg);
+        }
+        
+        /* List Style Customization */
+        ol.publication-list {
+            list-style-type: none;
+            counter-reset: section;
+            padding-left: 20px;
+        }
+
+        ol.publication-list li {
+            counter-increment: section;
+            position: relative;
+            padding-left: 30px;
+            text-align: justify;
+        }
+
+        ol.publication-list li::before {
+            content: "[" counter(section) "]";
+            position: absolute;
+            left: 0;
+            font-weight: normal;
+            padding-right: 10px;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-100 text-gray-800">
+    <div class="max-w-4xl mx-auto bg-white shadow-lg rounded-lg p-8">
+        <header class="text-center border-b pb-6 mb-8">
+            <h1 class="text-4xl font-bold text-gray-800 mb-2">Vivek Reddy Kesavarapu</h1>
+            <p class="text-lg text-gray-600">Ongole, India</p>
+            <div class="flex justify-center gap-6 mt-4">
+                <a href="https://vivek76.vercel.app" class="social-link text-blue-500 hover:bg-blue-100">
+                    <i class="fas fa-globe"></i>
+                </a>
+                <a href="mailto:kesavarapuvivek@gmail.com" class="social-link text-red-500 hover:bg-red-100">
+                    <i class="fas fa-envelope"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/vivek76" class="social-link text-blue-600 hover:bg-blue-200">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+                <a href="https://github.com/truly-vivek" class="social-link text-gray-800 hover:bg-gray-200">
+                    <i class="fab fa-github"></i>
+                </a>
+            </div>
+        </header>
+
+        <!-- Education -->
+        <section class="mb-8">
+            <h2 class="text-2xl font-semibold text-gray-700 border-b pb-2 mb-4 flex items-center">
+                <i class="fas fa-user-graduate text-blue-500 mr-3"></i> Education
+            </h2>
+            <ul class="space-y-4">
+                <li>
+                    <h3 class="font-bold text-lg">Seshadri Rao Gudlavalleru Engineering College</h3>
+                    <p class="text-gray-600">B.Tech in Information Technology | 2020 - 2024</p>
+                    <p class="text-gray-600">CGPA: 8.48</p>
+                </li>
+                <li>
+                    <h3 class="font-bold text-lg">Sri Pratibha Junior College</h3>
+                    <p class="text-gray-600">Intermediate - MPC | 2018 - 2020</p>
+                    <p class="text-gray-600">Percentage: 95.5%</p>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Skills -->
+        <section class="mb-8">
+            <h2 class="text-2xl font-semibold text-gray-700 border-b pb-2 mb-4 flex items-center">
+                <i class="fas fa-code text-green-500 mr-3"></i> Skills
+            </h2>
+            <div class="grid grid-cols-2 gap-4">
+                <div>
+                    <h3 class="font-bold">Programming</h3>
+                    <p class="text-gray-600">Python, C Language, Java</p>
+                </div>
+                <div>
+                    <h3 class="font-bold">Data Science</h3>
+                    <p class="text-gray-600">NumPy, Pandas, Matplotlib</p>
+                </div>
+                <div>
+                    <h3 class="font-bold">Database</h3>
+                    <p class="text-gray-600">MySQL</p>
+                </div>
+                <div>
+                    <h3 class="font-bold">Tools</h3>
+                    <p class="text-gray-600">Git, GitHub, VS Code, Google Colaboratory</p>
+                </div>
+                <div>
+                    <h3 class="font-bold">AI Tools</h3>
+                    <p class="text-gray-600">ChatGPT, Gemini, GenAI, Copilot</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience -->
+        <section class="mb-8">
+            <h2 class="text-2xl font-semibold text-gray-700 border-b pb-2 mb-4 flex items-center">
+                <i class="fas fa-briefcase text-blue-700 mr-3"></i> Experience
+            </h2>
+            <div>
+                <h3 class="font-bold text-lg">SmartInternz | ML & DL Externship</h3>
+                <p class="text-gray-600">Jan 2023 - June 2023</p>
+                <p class="text-gray-600">Collaborated with a team of four to develop and fine-tune a deep learning model for accurate age and gender prediction from images and achieved 93% accuracy.</p>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="mb-8">
+            <h2 class="text-2xl font-semibold text-gray-700 border-b pb-2 mb-4 flex items-center">
+                <i class="fas fa-project-diagram text-purple-500 mr-3"></i> Projects
+            </h2>
+            <ul class="list-disc pl-6 text-gray-600">
+                <li>
+                    <h3 class="font-bold">Speech to Sign Language Conversion Website</h3>
+                    <p>NLP | Deep Learning | Python | SQLite | Jan 2024</p>
+                    <p>Developed a real-time web application using NLP, implemented the backend with Python and an SQLite3 database, and leveraged a dataset of over 2,000 GIFs to achieve a 92% translation accuracy rate.</p>
+                </li>
+                <li>
+                    <h3 class="font-bold">Age and Gender Prediction</h3>
+                    <p>CNN | Python | OpenCV | TensorFlow | Machine Learning | May 2023</p>
+                    <p>Integrated OpenCV for real-time image processing and TensorFlow to train the CNN model on a dataset of 26,580 images, achieving an accuracy rate of 91% for age prediction and 94% for gender classification.</p>
+                </li>
+                <li>
+                    <h3 class="font-bold">My Portfolio Website</h3>
+                    <p>HTML | CSS | JavaScript | EmailJS | AI Chatbot | Aug 2023</p>
+                    <p>Integrated an AI chatbot trained with portfolio data, managing up to 100 chats per month, and included a contact form with EmailJS for efficient user queries and notifications.</p>
+                </li>
+            </ul>
+        </section>
+
+
+
+         <!-- Certifications -->
+         <section class="mb-8">
+            <h2 class="text-2xl font-semibold text-gray-700 border-b pb-2 mb-4 flex items-center">
+                <i class="fas fa-certificate text-yellow-500 mr-3"></i> Certifications
+            </h2>
+            <ul class="list-disc pl-6 text-gray-600">
+                <li>Programming Essentials in C | Cisco</li>
+                <li>Joy of Computing Using Python | NPTEL</li>
+                <li>CS50 Certification | Harvard</li>
+                <li>Google Digital Marketing Certification</li>
+                <li>Python MPC Course | GUVI</li>
+                <li>Azure Developer Associate AZ-204 | Microsoft</li>
+            </ul>
+        </section>
+
+        <!-- Achievements -->
+        <section class="mb-8">
+            <h2 class="text-2xl font-semibold text-gray-700 border-b pb-2 mb-4 flex items-center">
+                <i class="fas fa-trophy text-yellow-500 mr-3"></i> Achievements
+            </h2>
+            <ul class="list-disc pl-6 text-gray-600">
+                <li>Chairperson for ACM SRGEC Student Chapter for one year</li>
+                <li>Served as Class Representative for one year in B.Tech</li>
+                <li>Academic Topper in Intermediate 1st Year (11th Standard)</li>
+                <li>Awarded as the Academic Topper in 10th standard (SSC)</li>
+            </ul>
+        </section>
+
+        <!-- Workshops -->
+<section class="mb-8">
+    <h2 class="text-2xl font-semibold text-gray-700 border-b pb-2 mb-4 flex items-center">
+        <i class="fas fa-chalkboard-teacher text-orange-500 mr-3"></i> Workshops
+    </h2>
+    <ul class="list-disc pl-6 text-gray-600">
+        <li>
+            Created fully operational line follower and voice-controlled robots as part of a 2-member team during an
+            Ardubotics Robotics workshop at VIT.
+        </li>
+        <li>
+            Merit Certificate in Ethical Hacking workshop and stood among the top 5, organized at SRGEC by Indian
+            Servers.
+        </li>
+        <li>
+            Completed 5 levels in a drone flying challenge during a workshop on Drone Technology at SRGEC.
+        </li>
+        <li>
+            Participated in a 2D game design workshop using Buildbox by APSSDC.
+        </li>
+    </ul>
+</section>
+
+
+   <!-- Publications -->
+<section class="mb-8">
+    <h2 class="text-2xl font-semibold text-gray-700 border-b pb-2 mb-4 flex items-center">
+        <i class="fas fa-book text-purple-500 mr-3"></i> Publications
+    </h2>
+    <ol class="publication-list">
+        <li>
+            K. V. Reddy, K. Vaishnavi, M. F. Akbar, T. Balaji, and M. S. Rani, "A Natural Language Processing Approach to 
+            the Translation of Speech into Indian Sign Language," 2024 International Conference on Distributed Computing 
+            and Optimization Techniques (ICDCOT), Bengaluru, India, 2024.
+        </li>
+    </ol>
+</section>
+
+        <button id="theme-toggle" class="fixed top-4 right-4 p-2 rounded-full bg-gray-200 shadow-md">
+            <i id="theme-icon" class="fas fa-moon text-gray-800"></i>
+        </button>
+    </div>
+
+    <script>
+        const toggle = document.getElementById('theme-toggle');
+        const icon = document.getElementById('theme-icon');
+        toggle.addEventListener('click', () => {
+            document.documentElement.classList.toggle('dark');
+            icon.classList.toggle('fa-moon');
+            icon.classList.toggle('fa-sun');
+        });
+    </script>
+</body>
+
+</html>
