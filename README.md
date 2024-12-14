@@ -1,4 +1,4 @@
-# My Portfolio Website
+# My Electronic Resume Website
 
 Welcome to my personal electronic resume! This repository contains the source code for my professional electronic resume website, showcasing my skills, projects, achievements, and much more. The website is built using HTML, CSS, and JavaScript, along with various libraries and frameworks to enhance functionality.
 
